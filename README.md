@@ -55,6 +55,8 @@ Train：python main_cmu.py --past_length 10 --future_length 25 --channel 108
 ### 3DPW
 Please place the train, test, and validation files in the 3DPW/3DPW/sequenceFiles directory.
 
+Please run the following command in the 3DPW directory:
+
 Run the pre-trained model：python main_3DPW.py --past_length 10 --future_length 30 --channel 96 --model_name ckpt_17 --test
 
 Train：python main_3DPW.py --past_length 10 --future_length 30 --channel 96
