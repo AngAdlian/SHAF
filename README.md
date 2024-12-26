@@ -23,15 +23,11 @@ Please run the following command in the H36Mshort directory:
 
 Run the pre-trained model：python main_h36m.py --past_length 10 --future_length 10 --channel 72 --model_name ckpt_43 --test
 
-Train：python main_h36m.py --past_length 10 --future_length 10 --channel 72
-
 * Long-term motion prediction: 
 
 Please run the following command in the H36Mlong directory:
 
 Run the pre-trained model：python main_h36m.py --past_length 10 --future_length 25 --channel 108 --model_name ckpt_long_12 --test
-
-Train：python main_h36m.py --past_length 10 --future_length 25 --channel 108
 
 ### CMU_Mocap
 Please place the training and testing datasets in the cmu_mocap/train or cmu_mocap/test directory.
@@ -42,15 +38,11 @@ Please run the following command in the CMUshort directory:
 
 Run the pre-trained model：python main_cmu.py --past_length 10 --future_length 10 --channel 96 --model_name ckpt_65 --test
 
-Train：python main_cmu.py --past_length 10 --future_length 10 --channel 96
-
 * Long-term motion prediction: 
 
 Please run the following command in the CMUlong directory:
 
 Run the pre-trained model：python main_cmu.py --past_length 10 --future_length 25 --channel 108 --model_name ckpt_long_66 --test
-
-Train：python main_cmu.py --past_length 10 --future_length 25 --channel 108
 
 ### 3DPW
 Please place the train, test, and validation files in the 3DPW/3DPW/sequenceFiles directory.
@@ -59,7 +51,6 @@ Please run the following command in the 3DPW directory:
 
 Run the pre-trained model：python main_3DPW.py --past_length 10 --future_length 30 --channel 96 --model_name ckpt_17 --test
 
-Train：python main_3DPW.py --past_length 10 --future_length 30 --channel 96
 
 
 
