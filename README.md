@@ -52,6 +52,9 @@ Please run the following command in the 3DPW directory:
 Run the pre-trained model：python main_3DPW.py --past_length 10 --future_length 30 --channel 96 --model_name ckpt_17 --test
 
 
+If you have any other questions, you can send an email to gaoang199811@163.com.
+
+
 
 
 
